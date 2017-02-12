@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Novellito.com</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel ="stylesheet">
+  </head>
+  <body>
+
+<!--button was here slider* -->
+  
+<div class="hidden-xs"> 
+                         
+<h1 id= "me">
+   <div class="alert alert-warning" role="alert">
+    Christian Trinidad
+        <a href = "mailto:novellito7@gmail.com">
+            <span class=" glyphicon glyphicon-envelope" aria-hidden="true"></span>
+        </a>
+    
+   </div>
+    
+</h1>
+    
+      <!-- Tooltips -->
+    <a href="">
+        <img src="images/me.jpg" class = "myPic" data-toggle="tooltip" data-placement="top" title = "Click to know more about me">
+    </a>
+   
+    <!-- my Modal content--> 
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">About Christian</h4>
+        </div>
+        <div class="modal-body">
+          <p>Christian is a junior computer science student attending <a href = "http://www.csun.edu/" onClick = "openCSUN(event);">California State University Northridge</a>.</p>
+          
+          
+          <div class="row" style="padding-left: 50px;">
+          
+          <div class = "row">
+          
+          
+            <div class = "col-md-12">
+
+                      <h1>Skills</h1>
+                                
+            </div>   
+          
+          <div class = "col-md-6">
+             
+              <!-- progress bars--> 
+              <div style = "float:top; padding-left: 115px;">Java</div>
+              <div class="progress">
+
+
+                  <div class="progress-bar progress-bar-warning progress-bar-striped" role="progress" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                    <span class="sr-only">Java</span>
+                  </div>
+
+            </div>
+         
+         </div>
+         
+          <div class = "col-md-6">
+         
+              <div style = "float:top; padding-left: 110px;">C/C++</div>
+              <div class="progress">
+
+
+                  <div class="progress-bar progress-bar-danger progress-bar-striped" role="progress" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
+                    <span class="sr-only">C/C++</span>
+                  </div>
+
+            </div>
+        
+        </div>
+          
+        </div>
+         
+           <div class = "row">
+          
+                  <div class = "col-md-6">
+
+                      <!-- progress bars--> 
+                      <div style = "float:top; padding-left: 85px;">HTML/CSS</div>
+                      <div class="progress">
+                         
+                          <div class="progress-bar progress-bar-info progress-bar-striped" role="progress" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                            <span class="sr-only">HTML/CSS</span>
+                          </div>
+
+                    </div>
+
+                 </div>
+                
+                 <div class = "col-md-6">
+
+                      <!-- progress bars--> 
+                      <div style = "padding-left: 95px;">JavaScript</div>
+                      <div class="progress">
+                         
+                          <div class="progress-bar progress-bar-default progress-bar-striped" role="progress" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%; ">
+                            <span class="sr-only">JavaScript</span>
+                          </div>
+                          
+                    </div>                                       
+                 </div>  
+          
+        </div>
+         
+         
+         <div class = "row">
+         
+                   <div class = "col-md-6">
+
+                      <!-- progress bars--> 
+                      <div style = "padding-left: 95px;">JQuery</div>
+                      <div class="progress">
+
+                          <div class="progress-bar progress-bar-default progress-bar-striped" role="progress" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 30%; ">
+                            <span class="sr-only">Jquery</span>
+                          </div>
+
+                    </div>       
+                    
+                 </div>     
+                 
+                  <div class = "col-md-6">
+
+                  <div style = "float:top; padding-left: 100px;">Bootstrap</div>
+                  <div class="progress">
+
+
+                      <div class="progress-bar progress-bar-success progress-bar-striped" role="progress" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                        <span class="sr-only">Bootstrap</span>
+                      </div>
+
+                </div>
+
+            </div>                                  
+                                         
+         </div>
+         
+            </div>
+          
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+
+       <!-- work modal content-->
+    <div class="modal fade" id="workModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">My Work</h4>
+        </div>
+        <div class="modal-body">
+          <a href = "https://twitter.com/trini_bot" class = "twit">Simple Twitter Bot (using Node js)</a>
+                <ul>
+                  <li>Follow users by keywords</li>
+                  <li>Generate tweets</li>
+                  <li>Retweet users</li>
+                  <li>Like tweets</li>
+                </ul>
+        
+          <a href = "https://github.com/novellito/CSUN-Accessibility-Competition-Project" class = "voitcha">VOITCHA: Voice CAPTCHA</a>
+                <ul>
+                  <li>Android application created with a 5 person team</li>
+                  <li>Custon background color settings</li>
+                  <li>Voice recognition using Android API</li>
+                </ul>
+            
+           This website!
+             
+                <ul>
+                      <li>Custom load screen animation using JQuery</li>
+                      <li>Bootstrap modals</li>
+                      <li>Bootstrap progress bars</li>
+                </ul>     
+        </div>
+        
+        
+        
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id ="websites">
+  
+      <a href ="https://www.facebook.com/christian.n.trinidad">
+          <img src = "images/fb.png" class = "facebook" data-toggle="tooltip" data-placement="top" title = "Click to view my facebook profile">
+      </a>
+
+      <a href ="https://www.instagram.com/cnovellito/">
+          <img src = "images/insta.png" class = "insta"  data-toggle="tooltip" data-placement="top" title = "Click to view my instagram profile">
+      </a>
+
+      <a href ="https://www.linkedin.com/in/christian-trinidad-164743132?trk=nav_responsive_tab_profile_pic">
+          <img src = "images/linkedin.png" class = "linkedin" data-toggle="tooltip" data-placement="top" title = "Click to view my linkedin profile">
+      </a>
+
+      <a href ="https://github.com/novellito">
+          <img src = "images/git.png" class = "github" data-toggle="tooltip" data-placement="top" title = "Click to view my github profile">
+      </a>
+
+       <a href ="https://twitter.com/novellit0">
+          <img src = "images/twitter.png" class = "twitter"  data-toggle="tooltip" data-placement="top" title = "Click to view my twitter profile">
+      </a>
+
+      <a href ="myResume.pdf">
+          <img src = "images/resume.png" class = "resume" data-toggle="tooltip" data-placement="top" title = "Click to view my résumé">
+      </a>
+      
+      <a href = "">
+          <img src = "images/others.png" class = "others" data-toggle="tooltip" data-placement="top" title = "Click to view my work & relevant experience">
+      </a>    
+  </div>
+      
+  </div>
+  
+</div>
+<div class="visible-xs-block">
+     <ul class="nav nav-pills nav-stacked">
+          <li class="active">
+          
+              <a href="mailto:novellito7@gmail.com">Christian Trinidad   
+                   <span class=" glyphicon glyphicon-envelope" aria-hidden="true"></span>
+              </a>                           
+          </li>
+          
+          <li class="dropdown">
+           
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" >About me 
+
+                        <span class="caret"></span>
+
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                          <p>Christian is a junior computer science student attending <a href = "http://www.csun.edu/" onClick = "openCSUN(event);">California State University Northridge</a>.</p>
+                             
+                      </li>
+
+                    </ul>
+                  </li>
+             
+          
+          <li><a href="myResume.pdf" download>My résumé</a></li>
+          
+          <li class = "dropdown"><a class = "dropdown-toggle" data-toggle = "dropdown" href="#" id ="projectPic">Projects<span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                  <li>
+                      <p>
+                          <a href = "https://twitter.com/trini_bot" class = "twit">Simple Twitter Bot</a>
+                          <br>
+                          <a href = "https://github.com/novellito/CSUN-Accessibility-Competition-Project" class = "voitcha">VOITCHA: Voice CAPTCHA</a>  
+                      </p>
+              </li>
+             
+            </ul>
+          </li>     
+          
+          <li><a href="https://www.linkedin.com/in/christian-trinidad-164743132?trk=nav_responsive_tab_profile_pic" class = "liPic">Linked In</a></li>
+          
+          <li><a href="https://github.com/novellito" class = "githubPic">Github</a></li>
+           
+          <li><a href="https://www.instagram.com/cnovellito/" class = "instaColor">Instagram</a></li>
+          <li><a href="https://www.facebook.com/christian.n.trinidad" class = "fbColor">Facebook</a></li>
+          <li><a href="https://twitter.com/novellit0" class="btn btn-info" style ="font-size:20px">Twitter</a></li>
+    </ul>  
+     
+</div>
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

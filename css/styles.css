@@ -1,0 +1,152 @@
+body
+{
+    height: 840px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, grey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, grey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, grey); /* Standard syntax (must be last) */  
+}
+
+
+.progress
+{
+    width: 250px;
+}
+#projectPic
+{
+    background: #fbad50;
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+}
+
+
+.githubPic
+{
+    background: #bd2c00;
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+}
+
+.liPic
+{
+    background: #0077B5;
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+}
+.instaColor
+{
+    background:  #8a3ab9;
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+}
+
+.fbColor
+{
+    background: #3b5998;
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+}
+
+.active
+{
+    text-align: center;    
+    font-size: 40px;
+}
+
+.nav>li>a {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.visible-xs-block
+{
+    background: white;    
+}
+
+.glyphicon.glyphicon-envelope
+{
+    font-size: 20px;
+    color: orangered;
+}
+
+#me
+{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%) translateY(-50%);
+    color: azure; 
+   
+}
+
+.tooltip > .tooltip-inner {
+    background-color: lightgoldenrodyellow; 
+    color: black;
+     
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top: 5px solid lightgoldenrodyellow;
+     
+}
+
+.myPic, .github, .facebook
+{
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   width: 100px;
+   height: 100px;
+   margin-top: -50px; /* Half the height */
+   margin-left: -50px; /* Half the width */
+}
+
+.insta
+{
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   width: 102px;
+   height: 102px;
+   margin-top: -51px; /* Half the height */
+   margin-left: -51px; /* Half the width */   
+}
+
+.linkedin
+{
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   width: 105px;
+   height: 105px;
+   margin-top: -52px; /* Half the height */
+   margin-left: -52px; /* Half the width */   
+}
+
+
+.twitter, .resume, .others
+{
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   width: 110px;
+   height: 110px;
+   margin-top: -55px; /* Half the height */
+   margin-left: -55px; /* Half the width */   
+}
+
+.modal-dialog{
+  width:700px;
+}
+
+
+
+
+
